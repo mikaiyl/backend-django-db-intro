@@ -18,13 +18,13 @@ from django.urls import path
 
 from db_demo.models import *
 
-admin.site.register(Permissions)
+admin.site.register(Permission)
 admin.site.register(Profile)
-admin.site.register(Contributors)
-admin.site.register(Categories)
-admin.site.register(Roles)
-admin.site.register(Tags)
-admin.site.register(Pages)
+admin.site.register(Contributor)
+admin.site.register(Category)
+admin.site.register(Role)
+admin.site.register(Tag)
+admin.site.register(Page)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
